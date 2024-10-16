@@ -1,4 +1,4 @@
-Voxel game demos (Godot Engine 4.0)
+TESTUBE - Stage 0 Testonic.
 ====================================
 
 This project contains several scenes to test and demo the voxel module I'm developing for Godot Engine.
