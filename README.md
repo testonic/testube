@@ -1,32 +1,18 @@
-TESTUBE - Stage 0 Testonic.
-====================================
+# TESTUBE 
+## Stage 0 Testonic.
 
-This project contains several scenes to test and demo the voxel module I'm developing for Godot Engine.
+This project is a fork of the [VoxelGame](https://github.com/Zylann/voxelgame) demo, specifically 'Blocky_Game' therein. 
+Our goal is to widen it out from a techdemo to a more general-purpose "game", including a full mod-api. 
+This will be done over most if not all of 2025, as [the maintainer](https://github.com/parencompany/) learns Godot / more about gamedev in-general. ie: Keep expectations 'low enough' and note this has built-in planned opulence and it will be deprecated "eventually" as Testonic proper, manifests. I'll write more about those plans / goals under a (loose) roadmap, [here]().
 
 ![Screenshot](screenshots/2020_05_05_1953_small.png)
 
 
-Dependencies
----------------
-
-This project uses a C++ module:
+### Dependencies
+This project uses the C++ module:
 - [Voxel](https://github.com/Zylann/godot_voxel)
 
-For the old (unmaintained) pure-GDScript version, checkout the branch `full_gdscript`.
+Fyi, we plan to ship builds, and a launcher to sync releases but that might come in as-late as like Spring 2025.
 
-
-Runnable scenes
------------------
-
-- `blocky_game/main.tscn`: sort of Minecraft clone with random features.
-- `blocky_terrain/main.tscn`: simple test for blocky terrain
-- `smooth_terrain/main.tscn`: simple test for Transvoxel smooth terrain
-
-
-Blocky Game
-------------
-
-This game is a demo meant to be a practical example of using `VoxelTerrain` with a blocky look. It is not complete, some features might be incomplete, but it doesn't aim to be a finished game.
-
-It can be played in multiplayer. You can either host a game, join a game, or play without multiplayer.
-Synchronization is very basic: players are authoritative of their physics, but voxels are sent by the server, and edited on the server.
+### And A Special Thanks
+To [Zylann!](https://github.com/zylann) Without them, zero way this or the rest of Testonic would of happened! </br> If you can, [throw them a few bucks](https://github.com/sponsors/Zylann) for continued work on [Godot_Voxel](https://github.com/Zylann/godot_voxel).
